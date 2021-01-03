@@ -1,0 +1,16 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<SOAP-ENC:Array SOAP-ENC:arrayType="a1:Employee[2]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Project1/Project1%2C%20Version%3D0.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+</SOAP-ENC:Array>
+<a1:Employee id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Project1/Project1%2C%20Version%3D0.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Company_x003E_k__BackingField id="ref-5">company</_x003C_Company_x003E_k__BackingField>
+<Person_x002B__x003C_Name_x003E_k__BackingField id="ref-6">name</Person_x002B__x003C_Name_x003E_k__BackingField>
+</a1:Employee>
+<a1:Employee id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Project1/Project1%2C%20Version%3D0.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_x003C_Company_x003E_k__BackingField href="#ref-5"/>
+<Person_x002B__x003C_Name_x003E_k__BackingField href="#ref-6"/>
+</a1:Employee>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
